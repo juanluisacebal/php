@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+        Test sobre conocimientos en 
+		<b>
+		implantaciones web
+		</b>:<br><br>
+		<u>Cada pregunta con una sóla respuesta es 1 en acierto o 0 en error.<br>
+		En las preguntas 4, 6 y 8 las respuestas incorrectas restan más que las correctas, <br>pero la nota mínima en cada una de esas 
+		preguntas siempre es 0 y la máxima 1</u><br><br>
+		<br>El asterisco (*) es la respuesta correcta, lo dejo marcado para facilitar su corrección.  En las preguntas con múltiples opciones,
+		<br>también dejo cuánto resta o suma cada pregunta.
+		<br><br>
+
+        <form action="test.php" method="get">
+		<li>
+		<b>Pregunta 1-</b>¿Cual de estas herramientas permite trabajar online?<br>
+		<input type="radio" id="pregunta1" name="pregunta1" value="a" >
+		todas las anteriores <br>
+		<input type="radio" id="pregunta1" name="pregunta1" value="b" >
+		<b>(*)</b>Google Docs<br>
+		<input type="radio" id="pregunta1" name="pregunta1" value="a" >
+		Zoho Docs<br>
+		<input type="radio" id="pregunta1" name="pregunta1" value="a" >
+		Microsoft Office Online<br>
+	    <input type="radio" id="pregunta1" name="pregunta1" value="a" >
+		ThinkFree Online<br><br>
+		</li>
+		<li>
+		<b>Pregunta 2-</b>Una entrada en WordPress...<br>
+		<input type="radio" id="pregunta2" name="pregunta2" value="a" >
+		Puede tener asignadas etiquetas (tags) pero no categorias<br>
+		<input type="radio" id="pregunta2" name="pregunta2" value="a" >
+		No se pueden asignar ni categorías ni etiquetas (tags) a las entradas<br>
+		<input type="radio" id="pregunta2" name="pregunta2" value="b">
+		<b>(*)</b>Puede tener asignadas tanto categorías como etiquetas (tags)<br>
+		<input type="radio" id="pregunta2" name="pregunta2" value="a" >
+		Puede tener asignadas tanto categorías pero no etiquetas (tags)<br><br>
+		</li>
+		<li>
+  		<b>Pregunta 3-</b>Para qué sirve la constante de wordpress WP_POST_REVISION<br>
+		<input type="radio" id="pregunta3" name="pregunta3" value="b" >
+		<b>(*)</b>las dos respuestas posteriores son correctas<br>
+		<input type="radio" id="pregunta3" name="pregunta3" value="a" >
+		para indicar si permitimos revisión o no<br>
+		<input type="radio" id="pregunta3" name="pregunta3" value="a">
+		para limitar el número máximo de revisiones de cada entrada<br>
+		<input type="radio" id="pregunta3" name="pregunta3" value="a" >
+		para modificar el aspecto del panel de revisiones<br><br>
+		</li>		
+		
+		<li>
+  		<b>Pregunta 4-</b>Comparado con WordPress ¿Cual dirías que son los puntos fuertes de Drupal?<br>
+		<input type="checkbox" id="pregunta4a" name="pregunta4a" value="b">
+		<b>(*)</b>(+0.5)-Crear todo tipo de sitios web<br>
+		<input type="checkbox" id="pregunta4c" name="pregunta4c" value="b" >
+		(-0.7)-Numero de temas<br>
+		<input type="checkbox" id="pregunta4d" name="pregunta4d" value="b">
+		(-0.7)-Facilidad de uso<br>
+		<input type="checkbox" id="pregunta4b" name="pregunta4b" value="b" >
+		<b>(*)</b>(+0.5)-Potencia para crear aplicaciones web a medida<br><br>
+		</li>
+		
+		<li>
+  		<b>Pregunta 5-</b>la importación de datos incorporada en WordPress...<br>
+		<input type="radio" id="pregunta5" name="pregunta5" value="a" >
+		permite recoger datos de varios servicios y CMS<br>
+		<input type="radio" id="pregunta5" name="pregunta5" value="a" >
+		solo permite recoger datos de sistemas wordpress<br>
+		<input type="radio" id="pregunta5" name="pregunta5" value="b">
+		<b>(*)</b>permite recoger datos de cualquier CMS<br><br>
+		</li>
+		
+				<li>
+  		<b>Pregunta 6-</b>¿Cúales de las siguientes medidas de seguridad no son necesarias para un sistema WordPress?<br>
+		<input type="checkbox" id="pregunta6a" name="pregunta6a" value="b">
+		(-0.3)-quitar el acceso al archivo de configuracion<br>
+		<input type="checkbox" id="pregunta6b" name="pregunta6b" value="b" >
+		(-0.3)-utilizar contraseñas muy complejas<br>
+		<input type="checkbox" id="pregunta6c" name="pregunta6c" value="b">
+		<b>(*)</b>(+1.0)-todas las medidas anteriores son necesarias<br>		
+		<input type="checkbox" id="pregunta6d" name="pregunta6d" value="b">
+		(-0.3)-hacer que el administrador no se llame admin<br>
+		<input type="checkbox" id="pregunta6e" name="pregunta6e" value="b" >
+		(-0.3)-ocultar la versión de WordPress<br><br>
+		</li>
+		
+		<li>
+  		<b>Pregunta 7-</b>¿Donde se almacenan por defecto el archivo de configuración de WordPress?<br>
+		<input type="radio" id="pregunta7" name="pregunta7" value="b" >
+		<b>(*)</b>raizWordPress/wp-config.php<br>
+		<input type="radio" id="pregunta7" name="pregunta7" value="a" >
+		raizServidorWeb/wp-config.php<br>
+		<input type="radio" id="pregunta7" name="pregunta7" value="a">
+		raizWordPress/wp-settings.php<br>
+		<input type="radio" id="pregunta7" name="pregunta7" value="a" >
+		raizServidorWeb/wp-settings.php<br><br>
+		</li>
+
+				<li>
+  		<b>Pregunta 8-</b>¿Cúales de estas tareas no pueden ser realizadas por un usuario Seguidor en WordPress?<br>
+		<input type="checkbox" id="pregunta8a" name="pregunta8a" value="b">
+		<b>(*)</b>(+0.2)-escribir entradas<br>
+		<input type="checkbox" id="pregunta8b" name="pregunta8b" value="b" >
+		<b>(*)</b>(+0.2)-editar entradas propias<br>
+		<input type="checkbox" id="pregunta8c" name="pregunta8c" value="b">
+		<b>(*)</b>(+0.2)-evitar post de otros usuarios<br>		
+		<input type="checkbox" id="pregunta8d" name="pregunta8d" value="b">
+		<b>(*)</b>(+0.2)-eliminar comentarios de otros usuarios<br>
+		<input type="checkbox" id="pregunta8e" name="pregunta8e" value="b">
+		<b>(*)</b>(+0.2)-crear usuarios<br>
+		<input type="checkbox" id="pregunta8" name="pregunta8" value="b" >
+		(-0.5)-hacer comentarios<br><br>
+		</li>
+		
+		<li>
+  		<b>Pregunta 9-</b>¿Donde se almacenan los temas que descarguemos en Drupal?<br>
+		<input type="radio" id="pregunta9" name="pregunta9" value="a" >
+		raizDrupal/themes<br>
+		<input type="radio" id="pregunta9" name="pregunta9" value="b" >
+		<b>(*)</b>raizDrupal/sites/all/themes<br>
+		<input type="radio" id="pregunta9" name="pregunta9" value="a">
+		raizDrupal/includes/themes<br>
+		<input type="radio" id="pregunta9" name="pregunta9" value="a" >
+		raizDrupal/sites/default/themes<br><br>
+		</li>
+		
+				<li>
+  		<b>Pregunta 10-</b>¿Cual de las siguientes no es una característica de los sitios wiki?<br>
+		<input type="radio" id="pregunta10" name="pregunta10" value="a" >
+		Facilidad para crear contenidos<br>
+		<input type="radio" id="pregunta10" name="pregunta10" value="a" >
+		Rapidez en la generación de contenidos<br>
+		<input type="radio" id="pregunta10" name="pregunta10" value="a">
+		Generación colaborativa de contenidos<br>
+		<input type="radio" id="pregunta10" name="pregunta10" value="b" >
+		<b>(*)</b>Estética semejante a la wikipedia<br><br>
+		</li>
+		
+		
+		
+		
+		
+
+          <input type="submit" value="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Ver resultado &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp">
+        </form>
+  </body>
+</html>
